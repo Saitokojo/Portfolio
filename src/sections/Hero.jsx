@@ -27,7 +27,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/wallpaper46.jpg"
+          src="wallpaper46.jpg"
           alt="Hero Image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -113,7 +113,7 @@ export const Hero = () => {
             <div className="relative max-w-md mx-auto">
                 <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-pink-foreground/30 via-transparent to-pink-foreground/10 blur-2xl animate-pulse" />
                      <div className="relative glass rounded-2xl p-2 glow-border">
-                        <img src="/profile-picture.png"
+                        <img src="profile-picture.png"
                         alt="Image"
                         className="w-full aspect-4/6 object-cover rounded-2xl "
                         />
