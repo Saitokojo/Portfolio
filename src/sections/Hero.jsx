@@ -113,7 +113,7 @@ export const Hero = () => {
             <div className="relative max-w-md mx-auto">
                 <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-pink-foreground/30 via-transparent to-pink-foreground/10 blur-2xl animate-pulse" />
                      <div className="relative glass rounded-2xl p-2 glow-border">
-                        <img src="profile-picture.png"
+                        <img src={`${import.meta.env.BASE_URL}profile-picture.png`}
                         alt="Image"
                         className="w-full aspect-4/6 object-cover rounded-2xl "
                         />
