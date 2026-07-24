@@ -75,7 +75,7 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button size="sm">Contact Me</Button>
+            <Button size="sm">Q&A</Button>
         </div>
       </div>)}
     </header>

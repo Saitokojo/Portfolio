@@ -76,7 +76,7 @@ export const Hero = () => {
                 </span>
                 </h1>
                 <p className="text-lg text-muted-forground max-w-lg animate-fade-in animate-delay-400 text-shadow-gray-800">
-                Hi, I'm Saito - a beginner web-developmer in React, Next.js, and
+                Hi, I'm Mengti - a beginner web-developmer in React, Next.js, and
                 Typescript. I build scalable, performant web applications that
                 is easy for users to use and understand.
                 </p>
