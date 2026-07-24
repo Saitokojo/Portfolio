@@ -1,6 +1,6 @@
 export const Button = ({ className = "", size="default", children }) => {
     const baseClasses =
-    "relative overflow-hidden rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-pink bg-pink text-primary-foreground hover:bg-pink-300/90 shadow-lg shadow-pink/25";
+    "relative overflow-hidden rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-pink bg-pink text-primary-foreground hover:bg-pink-300/90 shadow-lg hover:shadow-[0_0_20px_rgba(255,119,189,0.7)] hover:bg-pink-200/20 transition-all duration-1000";
     const sizeClasses = {
         sm: "px-4 py-2 text-sm",
         default: "px-6 py-3 text-base ",

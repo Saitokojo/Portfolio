@@ -83,7 +83,7 @@ export const Hero = () => {
             </div>
 
             {/* CTA */}
-            <div className="flex flex-wrap gap-4 animated-fade-in animated-delay-500">
+            <div className="flex flex-wrap gap-4 animated-fade-in animated-delay-500 ">
                 <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5 " />
                 </Button>
@@ -91,7 +91,7 @@ export const Hero = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex flex-wrap gap-5 animate-fade-in animated-delay-600 transition-all duration-300 ">
+            <div className="flex flex-wrap gap-5 animate-fade-in animated-delay-600 transition-all duration-300  ">
                 {/* <span>Follow:</span> */}
                 <a href="https://github.com/Saitokojo" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="w-7 h-7 hover:text-pink transition-colors" />
