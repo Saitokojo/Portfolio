@@ -4,11 +4,9 @@ import { About } from '@/sections/About';
 import { Project } from '@/sections/Project';
 import { Experience } from '@/sections/Experience';
 import { Testimonials } from '@/sections/Testimonials';
-import { Contact } from '@/sections/contact';
+import { Contact } from '@/sections/Contact.jsx';
 
 function App() {
-
-
   return <div className="min-h-screen overflow-hidden">
     <Navbar />
     <main>
@@ -19,7 +17,6 @@ function App() {
       <Testimonials />
       <Contact />
     </main>
-
   </div>
 }
 
